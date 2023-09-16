@@ -1,2 +1,10 @@
 server:
   port: 9000
+
+# Swagger UI Configuration
+# https://www.baeldung.com/spring-rest-openapi-documentation
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui
